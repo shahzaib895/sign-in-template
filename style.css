@@ -1,0 +1,90 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Ubuntu';
+    padding: 3% 15%;
+    
+    background-color: hsl(206, 94%, 87%);
+}
+main{
+    display: flex;
+    border-radius: 25px;
+    flex-direction: row;
+    background-color: hsl(0, 0%, 100%);
+    padding: 30px ;
+}
+.steps{
+    background-image: url('./assets/images/bg-sidebar-desktop.svg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    margin: 10px 20px;
+    min-width: 20vw;
+    min-height: 78vh;
+    padding: 50px 80px;
+    object-fit: contain;
+}
+.step-circle{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+.step-desc{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0px 0px 10px;
+    margin-top: 7px;
+}
+.step{
+    color: hsl(231, 11%, 63%) ;
+}
+.step-title{
+    color:hsl(229, 24%, 87%);
+    font-weight: bold;
+}
+.step-num{
+    border: 2px solid hsl(229, 24%, 87%);
+    border-radius: 80%;
+    padding: 8px 11px;
+    margin: 10px 0px;
+    color: hsl(229, 24%, 87%);
+}
+.info-sec{
+    margin: 55px 0px 0px 65px;
+}
+.Heading{
+    font-weight: bold;
+    font-size: 40px;
+}
+.heading-description{
+    color: hsl(231, 11%, 63%) ;
+    padding-bottom: 30px;
+}
+.input-field{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+input{
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 8px;
+    border:1px solid hsl(231, 11%, 63%);
+    color: hsl(231, 12%, 56%);
+}
+.submit-button{
+    margin-top: 30px;
+    margin-left: 80%;
+    padding: 12px 20px;
+    border: 0px solid black;
+    border-radius: 5px;
+    background-color: #483eff;
+    color:hsl(229, 24%, 87%);
+    font-weight: bold;
+}
+.submit-button:hover{
+    background-color: #6259ff;
+}
